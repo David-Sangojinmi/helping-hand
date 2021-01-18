@@ -4,3 +4,8 @@ export { default as Home } from "./Home";
 export { default as About } from "./About";
 export { default as SignUp } from "./SignUp";
 export { default as Login } from "./Login";
+export { default as ChooseType } from "./ChooseType";
+export { default as FinishAccountHelper } from "./FinishAccountHelper";
+export { default as FinishAccountHelpee } from "./FinishAccountHelpee";
+export { default as Helper } from "./Helper";
+export { default as Helpee } from "./Helpee";
