@@ -8,12 +8,12 @@ function SignUp() {
     <div className="signup">
       <div class="container">
         <div class="row align-items-center my-5">
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <img src={slogan} alt="slogan" />
             <img src={mascot} alt="mascot" />
           </div>
-          <div class="col-lg-8">
-            <h1 class="font-weight-light">Sign Up</h1>
+          <div class="col-lg-7">
+            <h1>Sign Up</h1>
             
             <div id="formContent">
               {/* Login Form */}

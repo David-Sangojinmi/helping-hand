@@ -8,12 +8,12 @@ function Login() {
     <div className="login">
       <div class="container">
         <div class="row align-items-center my-5">
-        <div class="col-lg-4">
+        <div class="col-lg-5">
           <img src={slogan} alt="slogan" />
           <img src={mascot} alt="mascot" />
           </div>
-          <div class="col-lg-8">
-            <h1 class="font-weight-light">Login</h1>
+          <div class="col-lg-7">
+            <h1>Login</h1>
             
             <div id="formContent">
                 {/* Login Form */}
@@ -21,7 +21,7 @@ function Login() {
                     <input type="text" id="login" class="fadeIn second" name="username" placeholder="Username"/>
                     <input type="password" id="pass" class="fadeIn third" name="password" placeholder="Password"
                           minlength="8" required/>
-                    <Link class="navbar-brand" to="/tutorial">
+                    <Link class="navbar-brand" to="/choose-type">
                       <input type="submit" class="fadeIn fourth" value="Log In"/>
                     </Link>
                     

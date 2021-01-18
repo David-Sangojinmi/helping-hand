@@ -7,11 +7,11 @@ function Home() {
     <div className="home">
       <div class="container">
         <div class="row align-items-center my-5">
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <img src={slogan} alt="slogan" />
             <img src={mascot} alt="mascot" />
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-7">
             <br/>
             <br/>
             <br/>
