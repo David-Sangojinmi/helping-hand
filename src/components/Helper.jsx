@@ -2,16 +2,17 @@ import React from "react";
 import slogan from "./slogan.svg";
 import mascot from "./mascot.svg";
 
-function Helpers() {
+function Helper() {
   return (
     <div className="helpers">
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-4">
             <img src={slogan} alt="slogan" />
+            <img src={mascot} alt="mascot" />
           </div>
           <div class="col-lg-8">
-            <h1 class="font-weight-light">Hey helpers!</h1>
+            <h1>Hi helper!</h1>
             <p>View other profiles here</p>
             <br></br>
             <br></br>
@@ -25,4 +26,4 @@ function Helpers() {
   );
 }
 
-export default Helpers;
+export default Helper;

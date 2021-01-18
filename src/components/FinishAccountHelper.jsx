@@ -3,17 +3,17 @@ import slogan from "./slogan.svg";
 import mascot from "./mascot.svg";
 import { Link } from "react-router-dom";
 
-function FinishAccount() {
+function FinishAccountHelper() {
   return (
     <div className="tutorial">
       <div class="container">
         <div class="row align-items-center my-5">
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <img src={slogan} alt="slogan" />
             <img src={mascot} alt="mascot" />
           </div>
-          <div class="col-lg-8">
-            <h1 class="font-weight-light">Finish Sign Up</h1>
+          <div class="col-lg-7">
+            <h1>Finish Sign Up</h1>
             <div id="formContent">
                 {/* Login Form */}
                 <form>
@@ -24,22 +24,16 @@ function FinishAccount() {
                     <input type="text" id="postcode" class="fadeIn second" name="postcode" placeholder="Postcode"/>
                     <input type="text" id="number" class="fadeIn second" name="number" placeholder="Phone Number"/>
                     <select id="role" name="role" multiple>
-                        <option value="None Selected">What type of help do you need</option>
+                        <option value="None Selected">What type of help can you provide</option>
                         <option value="phone">Phone Call</option>
                         <option value="shop">Shopping</option>
                         <option value="shop">Dog Walking</option>
                     </select>
-                    <Link>
+                    <Link class="navbar-brand" to="/helper">
                         <input type="submit" class="fadeIn fourth" value="Complete"/>
                     </Link>
                     
                 </form>
-
-                {/* Remind Password */}
-                <div id="formFooter">
-                    <a class="underlineHover" href="#">Already with us? Login</a>
-                </div>
-
             </div>
             <br/>
             <br/>
@@ -54,4 +48,4 @@ function FinishAccount() {
   );
 }
 
-export default FinishAccount;
+export default FinishAccountHelper;
